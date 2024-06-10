@@ -1,0 +1,35 @@
+{
+    "TOKEN": "7043628685:AAHnoORY37tjmtzj1oY9XnY3NWN8zYnvtAs",
+    "USERS": {
+        "661768940": {
+            "STAGE": 0,
+            "CURRENT": null,
+            "UPDATES": []
+        },
+        "515643559": {
+            "STAGE": 0,
+            "CURRENT": null,
+            "UPDATES": [
+                "d37391e98d8f509051194d7dc44b6581ee7a00ce58665c7aac7ef72e3c7d6a79"
+            ]
+        }
+    },
+    "SCHEDULE": {
+        "d37391e98d8f509051194d7dc44b6581ee7a00ce58665c7aac7ef72e3c7d6a79": {
+            "USER": 515643559,
+            "NAME": "Генотек: Полный геном",
+            "URL": "https://back.genotek.ru/api/price/",
+            "PATH": [
+                "premium",
+                "/full-genome/",
+                "price"
+            ],
+            "COOLDOWN": 30,
+            "KEYWORD": 99900
+        }
+    },
+    "HEADERS": {
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+    }
+}
