@@ -118,7 +118,7 @@ def parse():
     print(i)
     scheduler.add_job(get_update, 'interval', minutes=jobs[i]["COOLDOWN"], args=[data, i])
     bot.send_message(jobs[i]["USER"], f'Проверка по вашему протоколу "{jobs[i]["NAME"]}" пошла и пудет проводится каждые {jobs[i]["COOLDOWN"]} мин.')
-    bot.send_photo(jobs[i]["USER"], "https://gachi.gay/guEKw")
+#    bot.send_photo(jobs[i]["USER"], "https://gachi.gay/guEKw")
     bot.send_message(661768940,
                      f'Проверка по вашему протоколу "{jobs[i]["NAME"]}" пошла и пудет проводится каждые {jobs[i]["COOLDOWN"]} мин.')
     bot.send_photo(661768940, "https://gachi.gay/guEKw")
